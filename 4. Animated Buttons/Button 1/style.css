@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 25px;
+    padding: 15px 20px;
+    border: 0px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px rgb(209, 208, 208);
+}
+
+.btn:hover {
+    background-color: rgb(43, 129, 43);
+}
+
+#btn1:active {
+    transform: translateY(4px);
+    box-shadow: 0px 6px 0px rgb(209, 208, 208);
+}
