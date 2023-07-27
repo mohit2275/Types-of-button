@@ -1,0 +1,31 @@
+* {
+    font-family: cursive;
+}
+
+a {
+    color: white;
+    background-color: darkcyan;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 0px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+#btn:hover {
+    color: black;
+    background-color: lightgrey;
+}
+
+#msg {
+    position: absolute;
+    background-color: red;
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+}
