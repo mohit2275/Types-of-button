@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 0px;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: rgb(219, 174, 174);
+}
+
+#subNav {
+    position: relative;
+    width: 13%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 38px;
+    background-color: lightgrey;
+}
+
+#menu1 {
+    height: 0px;
+}
+
+#subNav:hover #menu1 {
+    height: fit-content;
+}
